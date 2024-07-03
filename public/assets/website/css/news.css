@@ -1,0 +1,12 @@
+.news-horizontall-pic{
+    min-height: 300px;
+    background-color: black;
+}
+
+
+
+.news-verticall-pic{
+    background-color: black;
+    max-height: 300px;
+    min-height: 300px;
+}

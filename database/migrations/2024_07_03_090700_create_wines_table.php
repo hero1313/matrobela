@@ -17,8 +17,8 @@ return new class extends Migration
             $table->string('name_en');
             $table->string('color');
             $table->string('type');
-            $table->string('descriprion_ge');
-            $table->string('descriprion_en');
+            $table->longText('descriprion_ge');
+            $table->longText('descriprion_en');
             $table->string('years');
             $table->string('image');
             $table->timestamps();

@@ -3,7 +3,7 @@
 @section('content')
     <div class="container-fluid flex-grow-1 container-p-y">
         <button type="button" class="btn btn-primary add-btn" data-toggle="modal" data-target="#add_blog">
-            ბლოგის დამატება
+            სიახლეების დამატება
         </button>
         <hr class="my-4">
         <div class="mb-5 row">
@@ -44,7 +44,7 @@
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">ბლოგის რედაქტირება</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">სიახლის რედაქტირება</h5>
                                 <button type="button" class="close btn btn-primary" data-dismiss="modal"
                                     aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
@@ -91,7 +91,7 @@
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">ბლოგის წაშლა</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">სიახლის წაშლა</h5>
                                 <button type="button" class="close btn btn-primary" data-dismiss="modal"
                                     aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
@@ -102,7 +102,7 @@
                                     enctype=multipart/form-data>
                                     @csrf
                                     @method('DELETE')
-                                    <p>დარწმუნებული ხართ რომ გსურთ ბლოგის წაშლა</p>
+                                    <p>დარწმუნებული ხართ რომ გსურთ სიახლის წაშლა</p>
                                     <button type="submit" class="btn btn-primary">წაშლა</button>
                                 </form>
                             </div>
@@ -119,7 +119,7 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">ბლოგის დამატება</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">სიახლის დამატება</h5>
                         <button type="button" class="close btn btn-primary" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>

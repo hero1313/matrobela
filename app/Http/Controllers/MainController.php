@@ -44,35 +44,30 @@ class MainController extends Controller
         return view('website.components.wines', compact(['wines']));
     }
 
-    /**
-     * Display a listing of the resource.
-     */
-    public function showWines($id)
-    {
-        $wine = Wine::find($id);
-
-        return view('website.components.wine', compact(['wine']));
-    }
 
     /**
      * Display a listing of the resource.
      */
     public function gallery()
     {
-        $gallery = Gallery::orderBy('created_at', 'desc')->get();
+        $galleries = Gallery::orderBy('created_at', 'desc')->get();
 
-        return view('website.components.gallery', compact(['gallery']));
+        return view('website.components.gallery', compact(['galleries']));
     }
 
     /**
      * Display a listing of the resource.
      */
-    public function news($id)
+    public function showNews($id)
     {
         $news = Blog::find($id);
-
         return view('website.components.news', compact(['news']));
     }
 
+    public function showWines($id)
+    {
+        $wine = Wine::find($id);
+        return view('website.components.wine', compact(['wine']));
+    }
 
 }

@@ -50,7 +50,6 @@ a{
     height: 500px;
 }
 .first-section-container{
-    padding-left: 10%;
     padding-top: 60px;
 }
 .first-section-container>p{
@@ -72,7 +71,6 @@ a{
     width: 100%;
     text-align: center;
     margin: auto;
-    padding-left: 10%;
 }
 .about-us>div{
     text-align: left;
@@ -94,7 +92,6 @@ a{
 .wines-section{
     padding-top: 90px;
     width: 100%;
-    padding-left: 10%;
 }
 .wine-card{
     margin-top: 90px;
@@ -129,15 +126,13 @@ a{
 /* ნიუს სექცია */ 
 
 .news-section{
-    padding-top: 90px;
+    padding-top: 0px;
     width: 100%;
-    padding-left: 10%;
 }
 
 .news-section-img-wrapper{
-    margin-top: 90px;
+    margin-top: 30px;
     height: 280px;
-    width: 182px;
     max-width: 100%;
     max-height: 80%;
     position: relative;
@@ -166,13 +161,19 @@ a{
     padding: 4px 25px;
     border: solid 1px rgb(32, 23, 23);
     max-width: 100%;
+    width: 99.9%;
 }
 
 /* footer */ 
 .footer-section{
     padding-top: 90px;
     width: 100%;
-    padding-left: 10%;
+}
+.footer-section .address{
+    padding-left: 20%;
+}
+.footer-section .social{
+    padding-left: 20%;
 }
 .address{
     background-image: url(/assets/website/image/ornaments/image.png);
@@ -240,4 +241,36 @@ a{
     .first-section-container>p{
         font-size: 24px;
     }
+}
+.about-img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.gallery-img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.swiper-button-next{
+    color: #000;
+}
+.swiper-pagination-bullets {
+    margin-bottom: -10px;
+}
+.swiper-wrapper{
+    padding-bottom: 50px;
+}
+.swiper-pagination-bullet-active{
+    background-color: #000;
+}
+.news-verticall-pic img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.wine-card img{
+    object-fit: contain;
+    height: 300px;
+    width: 100%;
 }

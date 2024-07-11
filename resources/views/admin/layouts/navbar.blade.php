@@ -50,7 +50,7 @@
         <li class="menu-item">
             <a href="{{route('index.blog')}}" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-cube-alt"></i>
-                <div data-i18n="Layouts">ბლოგი</div>
+                <div data-i18n="Layouts">სიახლეები</div>
             </a>
         </li>
         <li class="menu-item">

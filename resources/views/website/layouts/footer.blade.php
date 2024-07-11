@@ -1,9 +1,9 @@
-<footer class="container footer-section">
+<footer class="p-5  footer-section">
   <div class="row">
       <div class="col-6 address">
           <div class="d-flex">
               <i class="address-icons fa-solid fa-location-dot fa-xl" style="color: #201717;"></i>
-              <p>საქართველო, კახეთი, გურჯაანი, სოფელი ველისციხე</p></div>
+              <p>{{ __('public._contact_address') }}</p></div>
           <div class="d-flex">
               <i class="address-icons fa-solid fa-phone fa-xl" style="color: #201717;"></i>
               <p>+995 599 937 909</p></div>

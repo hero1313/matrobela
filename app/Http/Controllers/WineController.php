@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Wine;
 use Illuminate\Http\Request;
-
+use File;
 class WineController extends Controller
 {
      /**

@@ -24,7 +24,7 @@
         </div>
     </section>
     <!--ღვინოების სექცია-->
-    <section class="container wines-section">
+    <section class="container pt-5">
         <h3>{{ __('public._wines') }}</h3>
         <div class="container">
             <div class="row">

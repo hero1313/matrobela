@@ -18,7 +18,7 @@ a{
 
 .about-us-wrapper{
     width: 100%;
-    background-image: url(images/ornaments/ორნამენტები-01.svg);
+    background-image: url(/assets/website/image/ornaments/ორნამენტები-01.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size:contain;
@@ -38,8 +38,7 @@ a{
     margin-bottom: 40px;
 }
 .image-div{
-    width: 85%;
-    background-image: url(images/gallery/5.png);
+    background-image: url(/assets/website/image/gallery/5.png);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -52,10 +51,11 @@ a{
 }
 .about-us-wrapper-2{
     width: 100%;
-    background-image: url(images/ornaments/image\ \(1\).png);
+    background-image: url(/assets/website/image/ornaments/ორნამენტები-05.svg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size:contain;
+    padding-bottom: 150px;
 }
 
 @media(max-width:991px){

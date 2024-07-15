@@ -1,4 +1,12 @@
 /* global */ 
+@font-face {
+    font-family: 'Noto';
+    src: url('/assets/fonts/noto.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Noto', sans-serif;
+}
 
 body{
     font-family: noto serif georgian;
@@ -273,4 +281,50 @@ a{
     object-fit: contain;
     height: 300px;
     width: 100%;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+.footer-background .social {
+    height: 130px;
+}
+.footer-background{
+    margin-top: -150px;
+}
+
+.facebook-icon-wrapper, .instagram-icon-wrapper{
+    float: right;
+    margin-right: 20px;
+}
+.instagram-icon-wrapper{
+    margin-top: 30px;
+    margin-right: -35px;
+}
+
+.j-right{
+    justify-content: right;
+}
+.j-left{
+    justify-content: left;
+}
+.j-center{
+    justify-content: center;
+}
+
+.wines-section {
+    background-repeat: no-repeat;
+    background-image: url(/assets/img/wine-ornament.svg);
+    background-position: center;
+    padding-top: 0px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.news-text{
+    padding-left: 50px;
+}
+.pl-0{
+    padding-left: 0px;
+}
+.gallery-wrapper{
+    min-height: 65vh;
 }

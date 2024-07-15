@@ -1,17 +1,17 @@
 <nav class="container">
     <!--ხილვადი მენიუ-->
     <div class="row header-menu-visible">
-        <a class="col d-flex justify-content-center align-items-center nav-hover-effect" href="{{ route('website.index.main') }}"><div >{{ __('public._home') }}</div></a>
-        <a class="col d-flex justify-content-center align-items-center nav-hover-effect" href="{{ route('website.index.about') }}"><div >{{ __('public._about') }}</div></a>
-        <a class="col d-flex justify-content-center align-items-center nav-hover-effect" href="{{ route('website.index.wines') }}"><div >{{ __('public._wines') }}</div></a>
-        <a class="col d-flex justify-content-center align-items-center" href="/"><div ><img class="logo" src="/assets/website/image/logo/მათრობელა ლოგო.png" alt="logo"></div></a>
-        <a class="col d-flex justify-content-center align-items-center nav-hover-effect" href="{{ route('website.index.gallery') }}"><div >{{ __('public._gallery') }}</div></a>
-        <a class="col d-flex justify-content-center align-items-center nav-hover-effect" href="news.html"><div >{{ __('public._news') }}</div></a>
-        <a class="col d-flex justify-content-center align-items-center nav-hover-effect" href="/"><div >{{ __('public._contact') }}</div></a>
+        <a class="col j-left d-flex align-items-center nav-hover-effect" href="{{ route('website.index.main') }}"><div >{{ __('public._home') }}</div></a>
+        <a class="col j-left d-flex align-items-center nav-hover-effect" href="{{ route('website.index.about') }}"><div >{{ __('public._about') }}</div></a>
+        <a class="col j-left d-flex align-items-center nav-hover-effect" href="{{ route('website.index.wines') }}"><div >{{ __('public._wines') }}</div></a>
+        <a class="col j-center d-flex align-items-center" href="/"><div ><img class="logo" src="/assets/website/image/logo/მათრობელა ლოგო.png" alt="logo"></div></a>
+        <a class="col j-right d-flex align-items-center nav-hover-effect" href="{{ route('website.index.gallery') }}"><div >{{ __('public._gallery') }}</div></a>
+        <a class="col j-right d-flex align-items-center nav-hover-effect" href="news.html"><div >{{ __('public._news') }}</div></a>
+        <a class="col j-right d-flex align-items-center nav-hover-effect" href="/"><div >{{ __('public._contact') }}</div></a>
         @if (session('locale') == 'en')
-            <a class="col d-flex justify-right align-items-center" href="/locale/ge"><div ><i class="fa-solid fa-globe"></i></div></a>
+            <a class="col j-right d-flex align-items-center" href="/locale/ge"><div ><i class="fa-solid fa-globe"></i></div></a>
         @else
-            <a class="col d-flex justify-right align-items-center" href="/locale/en"><div ><i class="fa-solid fa-globe"></i></div></a>
+            <a class="col j-right d-flex align-items-center" href="/locale/en"><div ><i class="fa-solid fa-globe"></i></div></a>
         @endif
     </div>
     <!--დაფარული მენიუ-->
